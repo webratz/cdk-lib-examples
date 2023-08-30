@@ -1,0 +1,12 @@
+{
+  "version": "33.0.0",
+  "testCases": {
+    "BucketIntegTest/DefaultTest": {
+      "stacks": [
+        "CdkIntegMultiBucketStack"
+      ],
+      "assertionStack": "BucketIntegTest/DefaultTest/DeployAssert",
+      "assertionStackName": "BucketIntegTestDefaultTestDeployAssert0ECBF81B"
+    }
+  }
+}
