@@ -1,4 +1,9 @@
-# replace this
+# cdk-lib-examples
+
+This project contains example code for my talk "Deep dive on CDK: Tradeoffs when developing constructs & libraries" on AWS Community Day Germany 2023.
+
+The slides will be added after the talk.
+
 # API Reference <a name="API Reference" id="api-reference"></a>
 
 ## Constructs <a name="Constructs" id="Constructs"></a>
