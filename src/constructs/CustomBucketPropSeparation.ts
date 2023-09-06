@@ -16,7 +16,8 @@ export interface CustomBucketPropsSeparated {
     /**
      * Properties of original Bucket
      */
-    readonly bucketProps?: Partial<s3.BucketProps>;
+    readonly bucketProps?: s3.BucketProps;
+    // readonly bucketProps?: Partial<s3.BucketProps>; // This does not work with JSII
 }
 
 /**
