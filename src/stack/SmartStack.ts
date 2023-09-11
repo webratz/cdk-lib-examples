@@ -1,5 +1,6 @@
 import * as cdk from 'aws-cdk-lib';
 import { Construct } from 'constructs';
+import { S3Aspect } from '../constructs/S3Aspect';
 
 export interface SmartStackProps extends cdk.StackProps {
     /**
@@ -32,6 +33,7 @@ export class SmartStackIdentfieable extends cdk.Stack {
     constructor(scope: Construct, id: string, props: SmartStackProps) {
         super(scope, id, props);
         this.teamName = props.teamName;
+        cdk.Aspects.of(this).add(new S3Aspect());
     }
 
     public coolFunction() {

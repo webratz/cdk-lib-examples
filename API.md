@@ -1221,6 +1221,209 @@ Whether termination protection is enabled for this stack.
 ---
 
 
+### LowerCaseHelper <a name="LowerCaseHelper" id="cdk-lib-examples.LowerCaseHelper"></a>
+
+Will create a custom helper function to help lower casing strings within the template.
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#cdk-lib-examples.LowerCaseHelper.toString">toString</a></code> | Returns a string representation of this construct. |
+
+---
+
+##### `toString` <a name="toString" id="cdk-lib-examples.LowerCaseHelper.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Returns a string representation of this construct.
+
+#### Static Functions <a name="Static Functions" id="Static Functions"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#cdk-lib-examples.LowerCaseHelper.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+| <code><a href="#cdk-lib-examples.LowerCaseHelper.lower">lower</a></code> | will return a lower cased string for the given input. |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="cdk-lib-examples.LowerCaseHelper.isConstruct"></a>
+
+```typescript
+import { LowerCaseHelper } from 'cdk-lib-examples'
+
+LowerCaseHelper.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="cdk-lib-examples.LowerCaseHelper.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
+
+---
+
+##### `lower` <a name="lower" id="cdk-lib-examples.LowerCaseHelper.lower"></a>
+
+```typescript
+import { LowerCaseHelper } from 'cdk-lib-examples'
+
+LowerCaseHelper.lower(scope: Construct, id: string, inputString: string)
+```
+
+will return a lower cased string for the given input.
+
+###### `scope`<sup>Required</sup> <a name="scope" id="cdk-lib-examples.LowerCaseHelper.lower.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+---
+
+###### `id`<sup>Required</sup> <a name="id" id="cdk-lib-examples.LowerCaseHelper.lower.parameter.id"></a>
+
+- *Type:* string
+
+---
+
+###### `inputString`<sup>Required</sup> <a name="inputString" id="cdk-lib-examples.LowerCaseHelper.lower.parameter.inputString"></a>
+
+- *Type:* string
+
+---
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#cdk-lib-examples.LowerCaseHelper.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+| <code><a href="#cdk-lib-examples.LowerCaseHelper.property.lowerCaseProvider">lowerCaseProvider</a></code> | <code>aws-cdk-lib.custom_resources.Provider</code> | *No description.* |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="cdk-lib-examples.LowerCaseHelper.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
+
+---
+
+##### `lowerCaseProvider`<sup>Required</sup> <a name="lowerCaseProvider" id="cdk-lib-examples.LowerCaseHelper.property.lowerCaseProvider"></a>
+
+```typescript
+public readonly lowerCaseProvider: Provider;
+```
+
+- *Type:* aws-cdk-lib.custom_resources.Provider
+
+---
+
+
+### S3Checks <a name="S3Checks" id="cdk-lib-examples.S3Checks"></a>
+
+One way to add the Aspect to your setup and reach everything else in it.
+
+Depending on your expectactions this should be set to another scope (eg construct or even App)
+
+#### Initializers <a name="Initializers" id="cdk-lib-examples.S3Checks.Initializer"></a>
+
+```typescript
+import { S3Checks } from 'cdk-lib-examples'
+
+new S3Checks(scope: Construct, id: string)
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#cdk-lib-examples.S3Checks.Initializer.parameter.scope">scope</a></code> | <code>constructs.Construct</code> | *No description.* |
+| <code><a href="#cdk-lib-examples.S3Checks.Initializer.parameter.id">id</a></code> | <code>string</code> | *No description.* |
+
+---
+
+##### `scope`<sup>Required</sup> <a name="scope" id="cdk-lib-examples.S3Checks.Initializer.parameter.scope"></a>
+
+- *Type:* constructs.Construct
+
+---
+
+##### `id`<sup>Required</sup> <a name="id" id="cdk-lib-examples.S3Checks.Initializer.parameter.id"></a>
+
+- *Type:* string
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#cdk-lib-examples.S3Checks.toString">toString</a></code> | Returns a string representation of this construct. |
+
+---
+
+##### `toString` <a name="toString" id="cdk-lib-examples.S3Checks.toString"></a>
+
+```typescript
+public toString(): string
+```
+
+Returns a string representation of this construct.
+
+#### Static Functions <a name="Static Functions" id="Static Functions"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#cdk-lib-examples.S3Checks.isConstruct">isConstruct</a></code> | Checks if `x` is a construct. |
+
+---
+
+##### ~~`isConstruct`~~ <a name="isConstruct" id="cdk-lib-examples.S3Checks.isConstruct"></a>
+
+```typescript
+import { S3Checks } from 'cdk-lib-examples'
+
+S3Checks.isConstruct(x: any)
+```
+
+Checks if `x` is a construct.
+
+###### `x`<sup>Required</sup> <a name="x" id="cdk-lib-examples.S3Checks.isConstruct.parameter.x"></a>
+
+- *Type:* any
+
+Any object.
+
+---
+
+#### Properties <a name="Properties" id="Properties"></a>
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+| <code><a href="#cdk-lib-examples.S3Checks.property.node">node</a></code> | <code>constructs.Node</code> | The tree node. |
+
+---
+
+##### `node`<sup>Required</sup> <a name="node" id="cdk-lib-examples.S3Checks.property.node"></a>
+
+```typescript
+public readonly node: Node;
+```
+
+- *Type:* constructs.Node
+
+The tree node.
+
+---
+
+
 ### SmartStack <a name="SmartStack" id="cdk-lib-examples.SmartStack"></a>
 
 Stack that has additional features, can be nice, but tricky.
@@ -4121,6 +4324,51 @@ public readonly teamName: string;
 Name of team ownig this.
 
 ---
+
+## Classes <a name="Classes" id="Classes"></a>
+
+### S3Aspect <a name="S3Aspect" id="cdk-lib-examples.S3Aspect"></a>
+
+- *Implements:* aws-cdk-lib.IAspect
+
+Actual aspect that adds a tag to all S3 buckets.
+
+#### Initializers <a name="Initializers" id="cdk-lib-examples.S3Aspect.Initializer"></a>
+
+```typescript
+import { S3Aspect } from 'cdk-lib-examples'
+
+new S3Aspect()
+```
+
+| **Name** | **Type** | **Description** |
+| --- | --- | --- |
+
+---
+
+#### Methods <a name="Methods" id="Methods"></a>
+
+| **Name** | **Description** |
+| --- | --- |
+| <code><a href="#cdk-lib-examples.S3Aspect.visit">visit</a></code> | All aspects can visit an IConstruct. |
+
+---
+
+##### `visit` <a name="visit" id="cdk-lib-examples.S3Aspect.visit"></a>
+
+```typescript
+public visit(node: IConstruct): void
+```
+
+All aspects can visit an IConstruct.
+
+###### `node`<sup>Required</sup> <a name="node" id="cdk-lib-examples.S3Aspect.visit.parameter.node"></a>
+
+- *Type:* constructs.IConstruct
+
+---
+
+
 
 
 
