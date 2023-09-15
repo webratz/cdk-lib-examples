@@ -4,6 +4,9 @@ import { BlockPublicAccess } from 'aws-cdk-lib/aws-s3';
 import { CustomBucket, CustomBucketProps } from '../../src/constructs';
 
 describe('Private S3 Bucket Security configuration', () => {
+    // beforeEach(() => {
+    //     // create my resources
+    //   });
     function getTestAssets(props: Partial<CustomBucketProps>) {
         const app = new App();
         const stack = new Stack(app, 'TestStack');
